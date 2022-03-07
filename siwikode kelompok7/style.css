@@ -1,0 +1,272 @@
+body {
+    overflow-x: hidden;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0 , 1)), url(oiya.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+}
+/* navbar */
+.navbar {
+    background-color: #37443e;
+}
+.navbar-nav{
+    margin-right: auto;
+}
+.nav-link {
+    color: white;
+}
+
+.navbar .container .navbar-nav .nav-link {
+    margin-right: 50px;
+    color: #ffffff;
+    transition: .3s;
+}
+
+.navbar .container .navbar-nav .nav-link:hover {
+    color: #3a3130;
+}
+.dropdown .btn {
+    color: white;
+}
+.btn.btn-link {
+    color: white;
+}
+/* jumbotron */
+
+.jumbotron {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0 , 1)), url(oiya.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    margin: 0;
+}
+
+.jumbotron .container {
+    margin-top: 100px;
+}
+
+.jumbotron h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* card */
+.card-body h5 {
+    color: #3a3a3a;
+}
+.card-body p {
+    color: #3a3a3a;
+}
+
+
+/* breadcrum */
+.row .breadcrumb{
+    margin-top: 30px;
+}
+.nav-item .nav-link{
+    margin-top: 100px;
+    color: #00ffc8;
+}
+
+/*halaman wisata2*/
+.col-md-12 h2 {
+    margin: 30px;
+    margin-top: 40px;
+}
+.col-md-4 img {
+    padding: 5px;
+}
+.col-md-6 img {
+    padding: 5px;
+}
+.col-md-12 img {
+    padding: 5px;
+}
+ 
+/* detail */
+.detail1 {
+    width: 30vh;
+    height: 30vh;
+    margin: 30px;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+}
+.detail2 {
+    width: 20vh;
+    height: 20vh;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+}
+.fas.fa-star{
+    font-size: 14px !important;
+    color: yellow;
+}
+
+
+/* Admin */
+.table.table-striped {
+    color: rgb(235, 255, 247);
+    margin: 50px;
+}
+.container form {
+    color: #effaf8;
+}
+.fas.fa-eye {
+    color: rgb(102, 238, 192);
+}
+.fas.fa-pen {
+    color: #37696d;
+}
+.fas.fa-trash-alt {
+    color: #e5f7f2;
+}
+.admin .col-md-12 h2 {
+    margin-top: 100px;
+    color: #dbece7;
+}
+
+/* team */
+.team {
+    /* background: url(ciki.jpg);
+    background-size: cover;
+    background-attachment: fixed;  */
+    font-weight: 500;
+    margin: 0;
+    color: white;
+}
+.team .container .row .col-md-12 {
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+}
+.team .row:nth-child(2){
+    margin-right: 50px;
+}
+.row {
+    margin-top: 20px;
+    color: rgb(236, 248, 243);
+}
+.row:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+.row .col-md-3 {
+    width:25px;
+    padding:20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+/* .icon {
+    width:70px;
+    height:70px;
+    border:1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    margin:0 auto;
+} */
+.row .img-thumbnail {
+    margin-top: 90px;
+    width: 150px;
+    height: 130px;
+    margin-left: 30px;
+}
+.row .col-md-3 h4{
+    margin:10px 0;
+    margin-right: -20px;
+}
+
+
+/*loader */
+.bg-loader {
+    background-color: #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-loader .loader{
+    width:100px;
+    height: 100px;
+    border:3px solid #ffffff;
+    border-radius: 50%;
+    border-top-color: #3a3130;
+    border-right-color: #3a3130;
+    border-bottom-color: #3a3130;
+    animation: puterin .5s linear infinite;
+}
+@keyframes puterin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*footer*/
+.footer {
+    padding: 20px 0;
+    background-color: #3a584f;
+    color: white;
+    margin-top: 100px;
+}
+
+.hero {
+    background-color: #3a584f;
+}
+
+.online {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.online:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+@media screen and (max-width: 576px){
+    .navbar-brand {
+        text-align: center;
+        float: none;
+    }
+    .jumbotron {
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .jumbotron .container {
+        margin-top: 20px;
+    }
+    .display-4 {
+        font-size: 24px !important;
+    }
+    .lead mt-5 mb-2 {
+        font-size: 18px !important;
+    }
+}
+/*wisata*/
+.col-md-12 h2 {
+    margin: 30px;
+    margin-top: 40px;
+}
+.col-md-4 img {
+    padding: 5px;
+}
+.col-md-6 img {
+    padding: 5px;
+}
+.col-md-12 img {
+    padding: 5px;
+}
+.wisata h2 {
+    color: white;
+}
